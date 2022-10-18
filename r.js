@@ -1,0 +1,62 @@
+let c=1,n,m,b;
+b=document.getElementById("rbtn");
+n=document.getElementById('tbuser');
+m=document.getElementById('revii');
+function funr()
+{
+    
+    if(c==1)
+    {
+        document.getElementById('s1').innerHTML=m.value;
+        document.getElementById('d1').innerHTML=n.value;
+    }
+    if(c==2)
+    {
+        document.getElementById('s2').innerHTML=m.value;
+        document.getElementById('d2').innerHTML=n.value;
+    }
+    if(c==3)
+    {
+        document.getElementById('s3').innerHTML=m.value;
+        document.getElementById('d3').innerHTML=n.value;
+    }
+    if(c==4)
+    {
+        document.getElementById('s4').innerHTML=m.value;
+        document.getElementById('d4').innerHTML=n.value;
+    }
+    if(c==5)
+    {
+        document.getElementById('s5').innerHTML=m.value;
+        document.getElementById('d5').innerHTML=n.value;
+    }
+    if(c==6)
+    {
+        document.getElementById('s6').innerHTML=m.value;
+        document.getElementById('d6').innerHTML=n.value;
+    }
+    if(c==7)
+    {
+        document.getElementById('s7').innerHTML=m.value;
+        document.getElementById('d7').innerHTML=n.value;
+    }
+    if(c==8)
+    {
+        document.getElementById('s8').innerHTML=m.value;
+        document.getElementById('d8').innerHTML=n.value;
+    }
+    if(c==9)
+    {
+        document.getElementById('s9').innerHTML=m.value;
+        document.getElementById('d9').innerHTML=n.value;
+    }
+    c++;
+    if(c==10)
+    {
+        c=1;
+    }
+    m.value="";
+    n.value="";
+
+}
+b.addEventListener('click', funr);

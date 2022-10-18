@@ -1,0 +1,18 @@
+.revv
+{
+    height: 400px;
+    width: 80%;
+   
+    margin-left: 10%;
+    margin-top: 30px;
+    padding: 0;
+    float: inline-start;
+}
+.revinf
+{
+    text-align: center;
+}
+.revinf h4
+{
+    margin-top: 40px;
+}

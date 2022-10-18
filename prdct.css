@@ -1,0 +1,113 @@
+.container
+{
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 800px;
+    grid-gap: 20px;
+    padding: 10px;
+}
+.fcart
+{
+    text-align: center;
+    border: 2px;
+    border-style:solid;
+    font-size: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: gray;
+}
+.prod
+{
+    display: grid;
+    grid-template-columns: auto 30%;
+    padding: 20px;
+    grid-column-gap: 10px;
+
+}
+#counter
+{
+    background-color: rgb(224, 196, 196);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+}
+.fcart
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.pimgc
+{
+    border: 2px;
+    border-style: dotted;
+    height: 80%;
+}
+.sell
+{
+    border: 2px;
+    border-style: dotted;
+    height: 20%;
+    display: flex;
+}
+.pimg{
+    height: 280px;
+    margin: 0;
+    padding: 0;
+    
+}
+.adbtn
+{
+    background-color: greenyellow;
+    height: 30px;
+    font-size: 50%;
+    margin-left: 100px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.prc
+{
+    font-size: 20px;
+}
+.adbtn:hover
+{
+    background-color: rgb(233, 119, 214);
+    
+}
+/* COUNTER*/
+.myCart
+{
+    text-align: center;
+    border: 2px;
+    border-style: groove;
+    height: 10%;
+    width: 60%;
+    margin-left: 20% ;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.cartInfo
+{
+    margin: 100px 50px;
+    
+}
+.right
+{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+.confirm
+{
+    text-align: center;
+    margin-top: 200px;
+    
+
+}
+.confirmBtn{
+    background-color: greenyellow;
+}
+.confirmBtn:hover
+{
+    background-color: rgb(66, 142, 156);
+}

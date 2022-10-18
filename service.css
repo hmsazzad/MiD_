@@ -1,0 +1,28 @@
+.ourService
+{
+    border: 1px;
+    margin: 50px 20%;
+    border-style: solid;
+    height: 150px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+}
+.serv
+{
+    border: 2px;
+    border-style: dotted;
+    margin: 10px;
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: darkgray;
+    
+}
+.serv img
+{
+    height: 85px;
+}

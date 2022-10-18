@@ -1,0 +1,88 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+/*for NAVBAR*/
+.nav
+{
+    background-color: rgb(222, 129, 186);
+    padding: 5px;
+    
+}
+
+.navul
+{
+    overflow: hidden;
+}
+.navul li
+{
+    /*display: inline-block;*/
+    float: left;
+    list-style-type: none;
+}
+.navul li a
+{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    
+}
+.cntn
+{
+    display: none;
+    position:absolute;
+    background-color: rgb(222, 129, 186);
+}
+.cntn a
+{
+    display: block;
+}
+.dropdown:hover .cntn
+{
+    display: block;
+    overflow: auto;
+}
+
+
+/*for CAROUSEL*/
+.carousel-item
+{
+    text-align: center;
+    /*border: 3px;
+    border-style: dotted;
+    border-color: red;*/
+}
+.crslimg
+{
+    width: 400px;
+    height: 400px;
+}
+
+.fprice
+{
+    color: blue;
+}
+#crsl
+{
+    background-color: black;
+}
+.frnt
+{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#prdct h3
+{
+    margin-left: 30%;
+}
+

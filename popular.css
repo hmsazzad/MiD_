@@ -1,0 +1,60 @@
+.popular
+{
+    height: 650px;
+    background-color: skyblue;
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px 100px;
+    grid-gap: 30px;
+}
+.pre
+{
+    border: 2px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+   background-color: white;
+
+
+    
+}  
+.uProd
+{
+    border: 2px;
+    border-style: dotted;
+    padding: 10px;
+}
+.pOrder
+{
+    border: 2px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    
+}
+.uImg
+{
+    
+    margin: 0;
+    height: 300px;
+    width: 250px;
+
+}
+.pbtn
+{
+    width: 40%;
+    margin: auto;
+    background-color: greenyellow;
+}
+.pbtn:hover
+{
+    background-color: rgb(233, 119, 214);
+}
+.upComming h3
+{
+    margin-left: 42%;
+}
+    
